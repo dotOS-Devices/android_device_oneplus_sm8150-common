@@ -75,4 +75,12 @@
          without impacting power, performance, and app compatibility (e.g. protected content). -->
     <bool name="config_nightDisplayAvailable">false</bool>
 
+    <!-- The location of the devices physical tri state switch
+         0: Left side
+         1: Right side -->
+    <integer name="config_alertSliderLocation">1</integer>
+
+    <!-- Whether key handler sends intent when changing slider position -->
+    <string name="config_alertSliderIntent">com.dot.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
+
 </resources>
