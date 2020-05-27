@@ -34,8 +34,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
 
-import com.android.internal.dot.hardware.LineageHardwareManager; // Need FWB support
-import com.android.internal.dot.hardware.TouchscreenGesture; // Need FWB support
+import com.android.internal.custom.hardware.LineageHardwareManager; // Need FWB support
+import com.android.internal.custom.hardware.TouchscreenGesture; // Need FWB support
 
 import com.dot.device.DeviceSettings.R;
 
