@@ -91,6 +91,7 @@ vendor/bin/vl53l1_daemon_main
 vendor/etc/init/vendor.oneplus.hardware.camera@1.0-service.rc
 vendor/etc/init/vendor.oneplus.hardware.CameraMDMHIDL@1.0-service.rc
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/etc/init/vl53l1.rc
 vendor/lib64/lib_bokehlib.so
 vendor/lib64/lib_oneplus_watermark.so
 vendor/lib64/libarcsoft_beautyshot.so
@@ -167,6 +168,12 @@ vendor/lib64/libsysmon_cdsp_skel.so
 vendor/bin/dashd
 vendor/bin/wlchgd
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
+
+# Certificate Authority - from LA.UM.9.1.r1-09200-SMxxx0.0
+-vendor/app/CACertService/CACertService.apk|b08fa7c9d2faba99547db99df908909dfc0c8e90
+vendor/lib64/libcacertclient.so|90281ef665d6a66ad7aa0806d97c20866fe1a83d
+vendor/lib64/libjnihelper.so|89136c4d8541cb5b303615b100b4708f7ee2f429
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so|398e5510db4d739de008b7230aa6e688d6c51a8a
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
@@ -401,7 +408,6 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
-vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libgdtap.so
 vendor/lib64/libgeofencing.so
@@ -410,7 +416,6 @@ vendor/lib64/libgnsspps.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
-vendor/lib64/libjnihelper.so
 vendor/lib64/liblbs_core.so
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_core.so
@@ -681,7 +686,7 @@ vendor/bin/pm-service|c3d1b2f6e7f731b1328afbcf8e344405744528e3
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 vendor/lib64/libspcom.so|7cc4390e7caf520586c22cdb7219842fa5d6ed2c
 
-# Perf (perfbs) - from LA.UM.9.1.r1-09100-SMxxx0.0
+# Perf - from LA.UM.9.1.r1-09100-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|a1ceef9bbf6363ebba5e80a172f0618642f20740
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|ef55a90634021fbf8f7ab8d38b766729b081e40e
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
@@ -721,7 +726,6 @@ vendor/etc/powerhint.xml
 
 # Power-off alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|9cfca49cd9c0722ee36b3a99d99a17b6b5371ade
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
