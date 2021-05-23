@@ -1,23 +1,14 @@
 [
 =
-  {
-    "repository"  : "kdrag0n/proton-clang",
-    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
-    "branch"      : "master",
-    "remote"      : "github"
-  }
 
   {
-    "repository"  : "yaap/kernel_oneplus_sm8150"
+    "repository"  : "kernel_oneplus_sm8150"
     "target_path" : "kernel/oneplus/sm8150"
-    "branch"      : "eleven"
-    "remote"      : "github"
   }
 
   {
-    "repository"  : "TheMuppets/proprietary_vendor_oneplus"
-    "target_path" : "vendor/oneplus"
-    "branch"      : "lineage-18.1"
-    "remote"      : "github"
+  	"repository"  : "device_oneplus_common"
+  	"target_path" : "device/oneplus/common"
   }
+
 ]
