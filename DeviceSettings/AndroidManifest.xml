@@ -24,9 +24,9 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <protected-broadcast android:name="com.derp.device.DeviceSettings.UPDATE_SETTINGS" />
+    <protected-broadcast android:name="com.dot.device.DeviceSettings.UPDATE_SETTINGS" />
 
-    <protected-broadcast android:name="com.derp.device.DeviceSettings.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name="com.dot.device.DeviceSettings.UPDATE_SLIDER_POSITION" />
 
     <uses-sdk
         android:minSdkVersion="28"
@@ -63,7 +63,7 @@
             android:theme="@style/AppTheme">
         </activity>
 
-        <receiver android:name="com.derp.device.DeviceSettings.Startup" >
+        <receiver android:name="com.dot.device.DeviceSettings.Startup" >
             <intent-filter android:priority="100" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
