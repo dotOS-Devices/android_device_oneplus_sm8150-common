@@ -32,7 +32,7 @@ import android.media.AudioManager;
 public class Constants {
 
     // Broadcast action for settings update
-    static final String UPDATE_PREFS_ACTION = "com.derp.device.DeviceSettings.UPDATE_SETTINGS";
+    static final String UPDATE_PREFS_ACTION = "com.dot.device.DeviceSettings.UPDATE_SETTINGS";
 
     // Preference keys
     public static final String NOTIF_SLIDER_TOP_KEY = "keycode_top_position";
@@ -71,7 +71,7 @@ public class Constants {
     public static final Map<String, Integer> sKeyDefaultMap = new HashMap<>();
 
     public static final String ACTION_UPDATE_SLIDER_POSITION
-            = "com.derp.device.DeviceSettings.UPDATE_SLIDER_POSITION";
+            = "com.dot.device.DeviceSettings.UPDATE_SLIDER_POSITION";
     public static final String EXTRA_SLIDER_POSITION = "position";
 
     // Broadcast extra: keycode mapping (int[]: key = gesture ID, value = keycode)
