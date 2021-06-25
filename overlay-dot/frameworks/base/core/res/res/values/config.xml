@@ -80,6 +80,9 @@
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
 
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
+
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">com.dot.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
 
