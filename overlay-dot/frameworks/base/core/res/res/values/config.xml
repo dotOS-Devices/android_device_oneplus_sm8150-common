@@ -67,9 +67,7 @@
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
 
-    <!-- Defines custom Vendor sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
-
+ 
     <!-- Control whether Night display is available. This should only be enabled on devices
          that have a HWC implementation that can apply the matrix passed to setColorTransform
          without impacting power, performance, and app compatibility (e.g. protected content). -->
@@ -85,5 +83,7 @@
 
     <!-- Whether key handler sends intent when changing slider position -->
     <string name="config_alertSliderIntent">com.dot.device.DeviceSettings.UPDATE_SLIDER_POSITION</string>
+
+    <string name="config_pocketJudgeVendorProximitySensorName">oneplus.sensor.infrared.proximity</string>
 
 </resources>
