@@ -42,6 +42,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="doze"
+        android:title="@string/doze_panel_title">
+
+        <Preference
+        android:key="advanced_doze_settings"
+        android:icon="@drawable/ic_doze"
+        android:persistent="false"
+        android:title="@string/doze_settings_title"
+        android:summary="@string/doze_settings_summary">
+        <intent
+                  android:action="android.intent.action.MAIN"
+                  android:targetPackage="org.lineageos.settings.doze"
+                  android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="vibrator"
         android:title="@string/category_vibrator">
 
