@@ -390,9 +390,9 @@ vendor/firmware/a640_zap.b02
 vendor/firmware/a640_zap.elf
 vendor/firmware/a640_zap.mdt
 
-# Graphics (Vulkan)
-vendor/lib/hw/vulkan.adreno.so
-vendor/lib64/hw/vulkan.adreno.so
+# Graphics (Vulkan) - from LA.UM.9.1.r1-10200-SMxxx0.0
+vendor/lib/hw/vulkan.adreno.so|51a8747ec46aa673084c89a88eec9e96c4dde8f7
+vendor/lib64/hw/vulkan.adreno.so|7a3594c5803363435af4deb350db20d50fe67117
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
