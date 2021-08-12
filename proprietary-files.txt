@@ -328,12 +328,12 @@ vendor/lib64/libssd.so|4a30f8df82c6fc816391e6a2858000e220c1e8cb
 vendor/lib64/libtzdrmgenprov.so|f533462498968c4d8539abf9ba60107ba2530be6
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|84e38997eb849e16f076d2071e5b3eceda167d1e
 
-# ESE
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
+# ESE - from LA.UM.9.1.r1-10200-SMxxx0.0
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|afaf2e7e006e4e9cae2fe8a8cd836e08ad5811fd
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|cbaaf7b45bd5de333fe1be4610fdab1f32ea3aee
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|e5999ae72d0c10291db74f57baad30be911f674d
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|0ff38d7dc073177da858bba3709efb1874dad07d
 
 # Gatekeeper - from LA.UM.9.1.r1-10200-SMxxx0.0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
