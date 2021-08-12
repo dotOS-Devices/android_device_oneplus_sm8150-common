@@ -231,11 +231,10 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# Configstore
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
+# Configstore - from LA.UM.9.1.r1-10200-SMxxx0.0
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|67a6d0fef28f1408a3bef16a1a580fc64dfaa194
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|043e60b3814acd2c84ca4a0344ae95b654db8bdd
 
 # Display
 vendor/bin/hw/vendor.oneplus.hardware.display@1.0-service
