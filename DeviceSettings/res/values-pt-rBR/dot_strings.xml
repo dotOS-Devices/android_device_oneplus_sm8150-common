@@ -80,4 +80,9 @@
     <string name="always_on_camera_dialog_title">Diálogo da câmera frontal</string>
     <string name="always_on_camera_dialog_summary_on">Sempre pergunte antes de abrir</string>
     <string name="always_on_camera_dialog_summary_off">Somente pergunte quando a tela estiver desligada</string>
+
+    <!-- Doze -->
+    <string name="doze_panel_title">Doze</string>
+    <string name="doze_settings_title">Configurações Avançadas do Doze</string>
+    <string name="doze_settings_summary">Defina ações ao sensor que acorda o dispositivo</string>
 </resources>
