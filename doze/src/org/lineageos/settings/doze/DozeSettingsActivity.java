@@ -19,8 +19,9 @@ package org.lineageos.settings.doze;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import org.lineageos.settings.doze.MonetPreferenceActivity;
 
-public class DozeSettingsActivity extends PreferenceActivity {
+public class DozeSettingsActivity extends MonetPreferenceActivity {
 
     private static final String TAG_DOZE = "doze";
 
