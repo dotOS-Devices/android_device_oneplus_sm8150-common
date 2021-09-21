@@ -29,8 +29,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceManager;
+import com.dot.device.DeviceSettings.MonetPreferenceActivity;
 
-public class DeviceSettingsActivity extends Activity {
+public class DeviceSettingsActivity extends MonetPreferenceActivity {
 
     private DeviceSettings mDeviceSettingsFragment;
 
