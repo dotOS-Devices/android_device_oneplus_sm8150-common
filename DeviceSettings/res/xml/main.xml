@@ -10,14 +10,17 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
         android:key="slider"
+        android:layout="@layout/dot_preference_category"
         android:title="@string/notification_slider_category_title">
-
         <ListPreference
             android:key="keycode_top_position"
+            android:layout="@layout/dot_preference_top_card"
             android:dialogTitle="@string/notification_slider_selection_dialog_title"
             android:title="@string/notification_slider_top_position"
             android:summary="%s"
@@ -26,6 +29,7 @@
 
         <ListPreference
             android:key="keycode_middle_position"
+            android:layout="@layout/dot_preference_middle_card"
             android:dialogTitle="@string/notification_slider_selection_dialog_title"
             android:title="@string/notification_slider_middle_position"
             android:summary="%s"
@@ -33,21 +37,25 @@
             android:entryValues="@array/notification_slider_action_entry_values" />
 
         <ListPreference
-          android:key="keycode_bottom_position"
-          android:dialogTitle="@string/notification_slider_selection_dialog_title"
-          android:title="@string/notification_slider_bottom_position"
-          android:summary="%s"
-          android:entries="@array/notification_slider_action_entries"
-          android:entryValues="@array/notification_slider_action_entry_values" />
+            android:key="keycode_bottom_position"
+            android:layout="@layout/dot_preference_bottom_card"
+            android:dialogTitle="@string/notification_slider_selection_dialog_title"
+            android:title="@string/notification_slider_bottom_position"
+            android:summary="%s"
+            android:entries="@array/notification_slider_action_entries"
+            android:entryValues="@array/notification_slider_action_entry_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="doze"
+        android:layout="@layout/dot_preference_category"
+        app:allowDividerAbove="false"
         android:title="@string/doze_panel_title">
 
         <Preference
         android:key="advanced_doze_settings"
         android:icon="@drawable/ic_doze"
+        android:layout="@layout/dot_preference_full_alone_card"
         android:persistent="false"
         android:title="@string/doze_settings_title"
         android:summary="@string/doze_settings_summary">
@@ -60,6 +68,7 @@
 
     <PreferenceCategory
         android:key="vibrator"
+        android:layout="@layout/dot_preference_category"
         android:title="@string/category_vibrator">
 
         <com.dot.device.DeviceSettings.VibratorStrengthPreference
@@ -68,6 +77,7 @@
             android:summary="@string/vib_strength_summary_head" />
         <Preference
             android:icon="@drawable/ic_info_outline_24dp"
+            android:layout="@layout/dot_preference_full_alone_card"
             android:persistent="false"
             android:summary="@string/vibration_warning" />
     </PreferenceCategory>
