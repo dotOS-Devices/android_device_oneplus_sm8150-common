@@ -222,6 +222,10 @@ service vendor.pd_mapper /vendor/bin/pd-mapper
     class core
     user system
     group system
+# SmartCharging
+on boot
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 #Peripheral manager
 service vendor.per_mgr /vendor/bin/pm-service
